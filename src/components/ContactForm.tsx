@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
@@ -60,7 +60,7 @@ export default function ContactForm() {
             reset();
             setRecaptchaToken(null);
             
-        } catch (error) {
+        } catch {
             toast.error("Failed to send message. Please try again.", { id: loadingToast });
         } finally {
             setIsSubmitting(false);
@@ -136,7 +136,7 @@ export default function ContactForm() {
                                 disabled={isSubmitting}
                                 rows={3}
                             />
-                            <p className="text-xs text-gray-500 mt-1">Let us know when you're typically available for a call or consultation</p>
+                            <p className="text-xs text-gray-500 mt-1">Let us know when you&apos;re typically available for a call or consultation</p>
                             {errors.preferredTime && <p className="text-red-500 text-sm">{errors.preferredTime.message}</p>}
                         </div>
                         <div>
