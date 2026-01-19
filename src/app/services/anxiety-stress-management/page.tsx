@@ -67,7 +67,7 @@ export default function AnxietyStressManagementPage() {
                 life, relationships, and overall well-being.
               </p>
               <p>
-                Through our evidence-based approach, you'll learn to understand the root causes of your anxiety, 
+                Through our evidence-based approach, you&apos;ll learn to understand the root causes of your anxiety, 
                 recognize your unique triggers, and develop practical tools to manage anxious thoughts and physical 
                 symptoms. My approach combines cognitive-behavioral therapy (CBT), mindfulness techniques, and 
                 personalized coping strategies tailored to your specific needs.
@@ -81,7 +81,7 @@ export default function AnxietyStressManagementPage() {
       <ScrollReveal delay={0.3}>
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-indigo-600 mb-8">What You'll Learn</h2>
+            <h2 className="text-3xl font-bold text-indigo-600 mb-8">What You&apos;ll Learn</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 'Identify and challenge anxious thought patterns',
@@ -112,8 +112,8 @@ export default function AnxietyStressManagementPage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Cognitive-Behavioral Therapy (CBT)</h3>
                 <p className="text-gray-700">
-                  CBT is one of the most effective treatments for anxiety. We'll work together to identify negative 
-                  thought patterns and replace them with more balanced, realistic perspectives. You'll learn practical 
+                  CBT is one of the most effective treatments for anxiety. We&apos;ll work together to identify negative 
+                  thought patterns and replace them with more balanced, realistic perspectives. You&apos;ll learn practical 
                   techniques to challenge anxious thoughts and change unhelpful behaviors.
                 </p>
               </div>
