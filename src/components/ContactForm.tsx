@@ -153,12 +153,12 @@ export default function ContactForm() {
                             </select>
                             {errors.contactMethod && <p className="text-red-500 text-sm">{errors.contactMethod.message}</p>}
                         </div>
-                        {/* <div className="flex items-center justify-center">
+                        <div className="flex items-center justify-center">
                             <ReCAPTCHA
                                 sitekey={RECAPTCHA_SITE_KEY}
                                 onChange={(token: string | null) => setRecaptchaToken(token)}
                             />
-                        </div> */}
+                        </div>
                         <div className="flex items-center space-x-2">
                             <Checkbox
                                 id="terms"
