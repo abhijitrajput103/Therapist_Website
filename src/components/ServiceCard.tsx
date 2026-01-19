@@ -2,14 +2,29 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { Service } from "@/types";
+import { Button } from "./ui/button";
+import { ArrowRight } from "lucide-react";
 
 interface ServiceCardProps {
     service: Service;
 }
 
+// Map service titles to their URL slugs
+const getServiceSlug = (title: string): string => {
+    const slugMap: Record<string, string> = {
+        "Anxiety & Stress Management": "anxiety-stress-management",
+        "Relationship Counseling": "relationship-counseling",
+        "Trauma Recovery": "trauma-recovery"
+    };
+    return slugMap[title] || "";
+};
+
 export default function ServiceCard({ service }: ServiceCardProps) {
     const Icon = service.icon;
+    const slug = getServiceSlug(service.title);
+    
     return (
         <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             {service.image && (
@@ -30,7 +45,15 @@ export default function ServiceCard({ service }: ServiceCardProps) {
                     <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
                 </div>
                 <p className="text-gray-600 mb-4 leading-relaxed">{service.description}</p>
-                <p className="text-indigo-600 font-semibold text-lg">{service.fee}</p>
+                <p className="text-indigo-600 font-semibold text-lg mb-4">{service.fee}</p>
+                {slug && (
+                    <Link href={`/services/${slug}`}>
+                        <Button variant="outline" className="w-full group">
+                            Learn More
+                            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                        </Button>
+                    </Link>
+                )}
             </div>
         </div>
     );
