@@ -82,7 +82,7 @@ export default function RelationshipCounselingPage() {
       <ScrollReveal delay={0.3}>
         <section className="py-16 bg-white">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-3xl font-bold text-indigo-600 mb-8">What We'll Work On Together</h2>
+            <h2 className="text-3xl font-bold text-indigo-600 mb-8">What We&apos;ll Work On Together</h2>
             <div className="grid md:grid-cols-2 gap-6">
               {[
                 'Effective communication and active listening',
@@ -213,19 +213,19 @@ export default function RelationshipCounselingPage() {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-3">
                   <span className="font-semibold text-indigo-600 flex-shrink-0">1.</span>
-                  <span><strong>Check-in:</strong> We'll start by discussing what's been happening since our last session and any pressing issues.</span>
+                  <span><strong>Check-in:</strong> We&apos;ll start by discussing what&apos;s been happening since our last session and any pressing issues.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-semibold text-indigo-600 flex-shrink-0">2.</span>
-                  <span><strong>Focused work:</strong> We'll dive into specific topics or skills, with both partners actively participating.</span>
+                  <span><strong>Focused work:</strong> We&apos;ll dive into specific topics or skills, with both partners actively participating.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-semibold text-indigo-600 flex-shrink-0">3.</span>
-                  <span><strong>Practice:</strong> You'll have opportunities to practice new communication skills in session with my guidance.</span>
+                  <span><strong>Practice:</strong> You&apos;ll have opportunities to practice new communication skills in session with my guidance.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-semibold text-indigo-600 flex-shrink-0">4.</span>
-                  <span><strong>Homework:</strong> I'll suggest exercises or practices to continue your growth between sessions.</span>
+                  <span><strong>Homework:</strong> I&apos;ll suggest exercises or practices to continue your growth between sessions.</span>
                 </li>
               </ul>
               <p className="text-gray-700 mt-6">

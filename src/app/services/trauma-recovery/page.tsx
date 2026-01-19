@@ -129,8 +129,8 @@ export default function TraumaRecoveryPage() {
                 </div>
                 <p className="text-gray-700">
                   Trauma lives in the body, not just the mind. Through somatic experiencing and body-based techniques, 
-                  we'll help you release stored trauma, restore your connection to physical sensations, and rebuild 
-                  your sense of embodiment. You'll learn to listen to your body's signals and use them as a resource 
+                  we&apos;ll help you release stored trauma, restore your connection to physical sensations, and rebuild 
+                  your sense of embodiment. You&apos;ll learn to listen to your body&apos;s signals and use them as a resource 
                   for healing and regulation.
                 </p>
               </div>
@@ -142,7 +142,7 @@ export default function TraumaRecoveryPage() {
                 <p className="text-gray-700">
                   Before diving into trauma processing, we establish a foundation of safety and coping skills. This 
                   includes grounding techniques, emotional regulation strategies, and creating internal and external 
-                  resources. You're always in control of the pace, and we only move forward when you feel ready. 
+                  resources. You&apos;re always in control of the pace, and we only move forward when you feel ready. 
                   This phased approach ensures sustainable healing without re-traumatization.
                 </p>
               </div>
@@ -261,7 +261,7 @@ export default function TraumaRecoveryPage() {
                   <strong>Specialized training:</strong> I&apos;m trained in trauma-specific modalities and maintain ongoing education in trauma treatment.
                 </li>
                 <li>
-                  <strong>Cultural sensitivity:</strong> I recognize that trauma impacts different communities uniquely and approach each person's experience with cultural humility.
+                  <strong>Cultural sensitivity:</strong> I recognize that trauma impacts different communities uniquely and approach each person&apos;s experience with cultural humility.
                 </li>
                 <li>
                   <strong>Between-session support:</strong> I&apos;ll provide resources and tools you can use when difficult feelings arise outside of therapy.

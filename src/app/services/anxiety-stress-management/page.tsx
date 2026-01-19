@@ -120,7 +120,7 @@ export default function AnxietyStressManagementPage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Mindfulness & Relaxation</h3>
                 <p className="text-gray-700">
-                  Through mindfulness practices, progressive muscle relaxation, and breathing exercises, you'll learn 
+                  Through mindfulness practices, progressive muscle relaxation, and breathing exercises, you&apos;ll learn 
                   to ground yourself in the present moment and reduce physical symptoms of anxiety. These techniques 
                   can be used anywhere, anytime you need them.
                 </p>
@@ -128,8 +128,8 @@ export default function AnxietyStressManagementPage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Personalized Coping Strategies</h3>
                 <p className="text-gray-700">
-                  Everyone's experience with anxiety is unique. I'll help you develop a customized toolkit of coping 
-                  strategies that work specifically for you, your lifestyle, and your triggers. We'll practice these 
+                  Everyone&apos;s experience with anxiety is unique. I&apos;ll help you develop a customized toolkit of coping 
+                  strategies that work specifically for you, your lifestyle, and your triggers. We&apos;ll practice these 
                   skills together until you feel confident using them independently.
                 </p>
               </div>
@@ -144,7 +144,7 @@ export default function AnxietyStressManagementPage() {
           <div className="max-w-4xl mx-auto px-4">
             <h2 className="text-3xl font-bold text-indigo-600 mb-6">Who This Is For</h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
-              <p>This service is ideal if you're experiencing:</p>
+              <p>This service is ideal if you&apos;re experiencing:</p>
               <ul className="space-y-2">
                 <li>Persistent worry or racing thoughts</li>
                 <li>Physical symptoms like rapid heartbeat, sweating, or tension</li>
