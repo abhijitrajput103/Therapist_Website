@@ -62,15 +62,15 @@ export default function RelationshipCounselingPage() {
             <h2 className="text-3xl font-bold text-indigo-600 mb-6">Strengthen Your Connection</h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
               <p>
-                Every relationship faces challenges. Whether you're dealing with communication breakdowns, trust issues, 
+                Every relationship faces challenges. Whether you&apos;re dealing with communication breakdowns, trust issues, 
                 intimacy concerns, or simply feeling disconnected from your partner, relationship counseling provides 
                 a safe space to work through these difficulties together.
               </p>
               <p>
                 My approach to couples therapy is centered on creating a non-judgmental environment where both partners 
                 feel heard and validated. Through evidence-based techniques like the Gottman Method and Emotionally 
-                Focused Therapy (EFT), we'll explore patterns in your relationship, improve communication skills, and 
-                rebuild emotional intimacy. Whether you're navigating a specific crisis or simply want to strengthen 
+                Focused Therapy (EFT), we&apos;ll explore patterns in your relationship, improve communication skills, and 
+                rebuild emotional intimacy. Whether you&apos;re navigating a specific crisis or simply want to strengthen 
                 your bond, therapy can help you create a more fulfilling partnership.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function RelationshipCounselingPage() {
                 'Conflict resolution and fair fighting',
                 'Rebuilding trust and emotional safety',
                 'Intimacy and emotional connection',
-                'Understanding each other\'s needs and values',
+                'Understanding each other&apos;s needs and values',
                 'Managing differences and finding compromise',
                 'Breaking negative interaction patterns',
                 'Creating shared goals and vision for the future'
@@ -114,7 +114,7 @@ export default function RelationshipCounselingPage() {
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">The Gottman Method</h3>
                 <p className="text-gray-700">
                   Based on over 40 years of research, the Gottman Method focuses on building friendship, managing 
-                  conflict constructively, and creating shared meaning in your relationship. I'll teach you practical 
+                  conflict constructively, and creating shared meaning in your relationship. I&apos;ll teach you practical 
                   tools to enhance fondness and admiration, turn towards each other instead of away, and navigate 
                   disagreements without damaging your connection.
                 </p>
@@ -122,7 +122,7 @@ export default function RelationshipCounselingPage() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Emotionally Focused Therapy (EFT)</h3>
                 <p className="text-gray-700">
-                  EFT helps couples understand the emotional undercurrents driving their conflicts. We'll explore 
+                  EFT helps couples understand the emotional undercurrents driving their conflicts. We&apos;ll explore 
                   attachment needs, identify negative cycles that keep you stuck, and create new patterns of emotional 
                   responsiveness. This approach is particularly effective for couples dealing with trust issues or 
                   emotional disconnection.
@@ -132,7 +132,7 @@ export default function RelationshipCounselingPage() {
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Impartial & Balanced Facilitation</h3>
                 <p className="text-gray-700">
                   I create a neutral space where both partners feel equally heard and valued. My role is not to take 
-                  sides but to help you understand each other's perspectives, recognize patterns, and develop healthier 
+                  sides but to help you understand each other&apos;s perspectives, recognize patterns, and develop healthier 
                   ways of relating. Sessions are structured to ensure both voices are heard and both perspectives are 
                   honored.
                 </p>

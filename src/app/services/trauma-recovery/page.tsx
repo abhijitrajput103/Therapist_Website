@@ -62,16 +62,16 @@ export default function TraumaRecoveryPage() {
             <h2 className="text-3xl font-bold text-indigo-600 mb-6">A Path to Healing</h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
               <p>
-                Trauma can leave lasting imprints on your mind, body, and sense of self. Whether you've experienced 
+                Trauma can leave lasting imprints on your mind, body, and sense of self. Whether you&apos;ve experienced 
                 a single traumatic event or ongoing trauma, the effects can manifest as flashbacks, nightmares, 
                 hypervigilance, emotional numbness, difficulty trusting others, or feeling disconnected from yourself.
               </p>
               <p>
                 My trauma-informed approach prioritizes your safety, pacing, and sense of control throughout the 
                 healing process. Using specialized techniques including EMDR (Eye Movement Desensitization and 
-                Reprocessing) and somatic therapy, we'll work together to process difficult memories, release trapped 
+                Reprocessing) and somatic therapy, we&apos;ll work together to process difficult memories, release trapped 
                 trauma from your body, and help you reclaim your sense of safety and wholeness. Healing from trauma is 
-                possible, and you don't have to face it alone.
+                possible, and you don&apos;t have to face it alone.
               </p>
             </div>
           </div>
@@ -211,22 +211,22 @@ export default function TraumaRecoveryPage() {
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-600">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Phase 1: Safety & Stabilization (3-6 sessions)</h3>
                 <p className="text-gray-700">
-                  We'll focus on building coping skills, establishing safety, and creating resources before addressing 
-                  traumatic memories. You'll learn grounding techniques and emotional regulation strategies.
+                  We&apos;ll focus on building coping skills, establishing safety, and creating resources before addressing 
+                  traumatic memories. You&apos;ll learn grounding techniques and emotional regulation strategies.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-600">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Phase 2: Processing & Integration (Ongoing)</h3>
                 <p className="text-gray-700">
-                  Using EMDR or other trauma processing techniques, we'll work through traumatic memories at your pace. 
+                  Using EMDR or other trauma processing techniques, we&apos;ll work through traumatic memories at your pace. 
                   This phase is about releasing trapped emotions and reprocessing memories so they no longer overwhelm you.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-md border-l-4 border-teal-600">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Phase 3: Integration & Growth (Final sessions)</h3>
                 <p className="text-gray-700">
-                  We'll focus on integrating your healing, building resilience, and helping you move forward with 
-                  confidence. You'll develop a sustainable self-care plan and identify early warning signs.
+                  We&apos;ll focus on integrating your healing, building resilience, and helping you move forward with 
+                  confidence. You&apos;ll develop a sustainable self-care plan and identify early warning signs.
                 </p>
               </div>
             </div>
@@ -248,23 +248,23 @@ export default function TraumaRecoveryPage() {
             <h2 className="text-3xl font-bold text-indigo-600 mb-6">Your Safety is My Priority</h2>
             <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
               <p>
-                Trauma therapy requires a foundation of trust and safety. Here's what I offer:
+                Trauma therapy requires a foundation of trust and safety. Here&apos;s what I offer:
               </p>
               <ul className="space-y-3">
                 <li>
-                  <strong>You're in control:</strong> You set the pace, choose what to work on, and can pause or stop at any time.
+                  <strong>You&apos;re in control:</strong> You set the pace, choose what to work on, and can pause or stop at any time.
                 </li>
                 <li>
                   <strong>No pressure to share:</strong> You never have to describe traumatic details unless you choose to.
                 </li>
                 <li>
-                  <strong>Specialized training:</strong> I'm trained in trauma-specific modalities and maintain ongoing education in trauma treatment.
+                  <strong>Specialized training:</strong> I&apos;m trained in trauma-specific modalities and maintain ongoing education in trauma treatment.
                 </li>
                 <li>
                   <strong>Cultural sensitivity:</strong> I recognize that trauma impacts different communities uniquely and approach each person's experience with cultural humility.
                 </li>
                 <li>
-                  <strong>Between-session support:</strong> I'll provide resources and tools you can use when difficult feelings arise outside of therapy.
+                  <strong>Between-session support:</strong> I&apos;ll provide resources and tools you can use when difficult feelings arise outside of therapy.
                 </li>
               </ul>
             </div>

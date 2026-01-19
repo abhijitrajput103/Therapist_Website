@@ -32,13 +32,13 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-6 items-center">
             {navLinks.slice(0, 2).map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-gray-700 hover:text-indigo-600 font-medium transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             
             {/* Services Dropdown */}
@@ -54,12 +54,12 @@ export default function Navbar() {
               
               {/* Dropdown Menu */}
               <div className={`absolute top-full left-0 mt-2 w-64 bg-white rounded-lg shadow-lg border border-gray-100 overflow-hidden transition-all duration-200 ${isServicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'}`}>
-                <a
+                <Link
                   href="/#services"
                   className="block px-4 py-3 text-gray-700 hover:bg-indigo-50 hover:text-indigo-600 transition-colors border-b border-gray-100 font-medium"
                 >
                   All Services
-                </a>
+                </Link>
                 {services.map((service) => (
                   <Link
                     key={service.href}
@@ -73,13 +73,13 @@ export default function Navbar() {
             </div>
 
             {navLinks.slice(2).map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-gray-700 hover:text-indigo-600 font-medium transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
 
@@ -95,20 +95,20 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden pb-4">
             <nav className="space-y-2">
-              <a
+              <Link
                 href="/"
                 onClick={() => setIsOpen(false)}
                 className="block text-gray-700 hover:text-indigo-600 font-medium"
               >
                 Home
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#about"
                 onClick={() => setIsOpen(false)}
                 className="block text-gray-700 hover:text-indigo-600 font-medium"
               >
                 About
-              </a>
+              </Link>
               
               {/* Mobile Services Dropdown */}
               <div>
@@ -121,13 +121,13 @@ export default function Navbar() {
                 </button>
                 {isServicesOpen && (
                   <div className="ml-4 mt-2 space-y-2">
-                    <a
+                    <Link
                       href="/#services"
                       onClick={() => setIsOpen(false)}
                       className="block text-gray-600 hover:text-indigo-600"
                     >
                       All Services
-                    </a>
+                    </Link>
                     {services.map((service) => (
                       <Link
                         key={service.href}
@@ -142,20 +142,20 @@ export default function Navbar() {
                 )}
               </div>
 
-              <a
+              <Link
                 href="#faq"
                 onClick={() => setIsOpen(false)}
                 className="block text-gray-700 hover:text-indigo-600 font-medium"
               >
                 FAQ
-              </a>
-              <a
+              </Link>
+              <Link
                 href="#contact"
                 onClick={() => setIsOpen(false)}
                 className="block text-gray-700 hover:text-indigo-600 font-medium"
               >
                 Contact
-              </a>
+              </Link>
             </nav>
           </div>
         )}
